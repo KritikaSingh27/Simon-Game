@@ -1,0 +1,43 @@
+body{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    height: 250px;
+    width: 250px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.box{
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.box:active{
+    background-color: aliceblue;
+}
+
+#red{
+    background-color: red;
+}
+
+#green{
+    background-color: green;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#blue{
+    background-color: blue;
+}
