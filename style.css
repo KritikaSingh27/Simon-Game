@@ -1,43 +1,44 @@
 body{
-    background-color: white;
-}
-
-h1{
     text-align: center;
+    background-color: white;
 }
 
 .container{
     display: flex;
-    height: 250px;
-    width: 250px;
+    height: 550px;
+    width: 500px;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 0 auto;
 }
 
-.box{
-    border: 5px solid black;
-    border-radius: 15px;
-    width: 100px;
-    height: 100px;
+.btn{
+    border: 10px solid black;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
 }
 
-.box:active{
+.btn:active{
     background-color: aliceblue;
 }
 
 #red{
-    background-color: red;
+    background-color: #d95980;
 }
 
 #green{
-    background-color: green;
+    background-color: #63aac0;
 }
 
 #yellow{
-    background-color: yellow;
+    background-color: #f99b45;
 }
 
 #blue{
-    background-color: blue;
+    background-color: #819ff9;
+}
+
+.flash{
+    background-color: white !important;
 }
